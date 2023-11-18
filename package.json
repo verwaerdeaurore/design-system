@@ -15,5 +15,9 @@
     "nuxt": "^3.8.1",
     "vue": "^3.3.8",
     "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "highlight.js": "^11.9.0",
+    "remixicon": "^3.5.0"
   }
 }

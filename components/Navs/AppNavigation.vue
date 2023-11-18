@@ -6,8 +6,8 @@
 
     <template v-slot:links>
       <LinksNavLink to="/">Accueil</LinksNavLink>
-      <LinksNavLink to="/layouts">Layouts</LinksNavLink>
-      <LinksNavLink to="/components">Components</LinksNavLink>
+      <LinksNavLink to="/dispositions">Dispositions</LinksNavLink>
+      <LinksNavLink to="/composants">Composants</LinksNavLink>
       <LinksNavLink to="/icones">Icones</LinksNavLink>
     </template>
   </NavsNav>

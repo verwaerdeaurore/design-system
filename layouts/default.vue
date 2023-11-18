@@ -1,3 +1,5 @@
 <template>
-  <LayoutsAppLayout />
+  <LayoutsAppLayout>
+    <slot />
+  </LayoutsAppLayout>
 </template>

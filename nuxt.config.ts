@@ -2,4 +2,8 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ["@nuxtjs/tailwindcss"],
+  css: [
+    "remixicon/fonts/remixicon.css",
+    "highlight.js/styles/night-owl.min.css",
+  ],
 });

@@ -1,3 +1,5 @@
 <template>
-  <div>Hello</div>
+  <Container>
+    <TitresTitre1> Accueil </TitresTitre1>
+  </Container>
 </template>
