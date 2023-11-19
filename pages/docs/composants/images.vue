@@ -15,8 +15,10 @@ definePageMeta({
 
     <TitresH2>Exemples</TitresH2>
 
-    Les images doivent être placées dans le dossier <code>/public/img</code> à
-    la racine
+    <TextesParagraphe>
+      Les images doivent être placées dans le dossier <code>/public/img</code> à
+      la racine
+    </TextesParagraphe>
 
     <TitresH3>Image simple</TitresH3>
 
