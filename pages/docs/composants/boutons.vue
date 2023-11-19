@@ -1,6 +1,12 @@
+<script setup>
+definePageMeta({
+  layout: "docs",
+});
+</script>
+
 <template>
   <Container>
-    <TitresTitre1> Boutons </TitresTitre1>
+    <TitresH1> Boutons </TitresH1>
 
     <div class="flex space-x-8 py-4">
       <BoutonsPrimaire>Primaire</BoutonsPrimaire>

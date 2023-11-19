@@ -1,6 +1,12 @@
+<script setup>
+definePageMeta({
+  layout: "docs",
+});
+</script>
+
 <template>
   <Container>
-    <TitresTitre1> Icones </TitresTitre1>
+    <TitresH1> Icones </TitresH1>
 
     <TextesParagraphe>
       Vous pouvez utilisez les icones de Remix Icon dans vos projets.
@@ -10,7 +16,7 @@
       >
     </TextesParagraphe>
 
-    <TitresTitre2>Exemples</TitresTitre2>
+    <TitresH2>Exemples</TitresH2>
 
     <i class="ri-heart-line text-6xl text-red-500"></i>
 

@@ -1,16 +1,22 @@
+<script setup>
+definePageMeta({
+  layout: "docs",
+});
+</script>
+
 <template>
   <Container>
-    <TitresTitre1>Navigations</TitresTitre1>
+    <TitresH1>Navigations</TitresH1>
 
-    <TitresTitre2>Barre de navigation</TitresTitre2>
+    <TitresH2>Barre de navigation</TitresH2>
 
     <div class="ring-2 ring-gray-200/75 my-8">
       <NavsNav>
-        <template v-slot:logo>
+        <template #logo>
           <TitresLogo>Logo</TitresLogo>
         </template>
 
-        <template v-slot:links>
+        <template #links>
           <LinksNavLink to="#">Accueil</LinksNavLink>
           <LinksNavLink to="#">Blog</LinksNavLink>
           <LinksNavLink to="#">À propos</LinksNavLink>
@@ -19,19 +25,17 @@
     </div>
 
     <TextesCode
-      :code="`
-<NavsNav>
-    <template v-slot:logo>
+      :code="`<NavsNav>
+    <template #logo>
         <TitresLogo>Logo</TitresLogo>
     </template>
 
-    <template v-slot:links>
+    <template #links>
         <LinksNavLink to=&quot;#&quot;>Accueil</LinksNavLink>
         <LinksNavLink to=&quot;#&quot;>Blog</LinksNavLink>
         <LinksNavLink to=&quot;#&quot;>À propos</LinksNavLink>
     </template>
-</NavsNav>
-     `"
+</NavsNav>`"
     />
   </Container>
 </template>

@@ -1,5 +1,5 @@
 <template>
   <Container>
-    <TitresTitre1> Accueil </TitresTitre1>
+    <TitresH1> Accueil </TitresH1>
   </Container>
 </template>
