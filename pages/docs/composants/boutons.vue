@@ -13,7 +13,7 @@ definePageMeta({
       actions de votre application.
     </TextesParagraphe>
 
-    <div class="flex space-x-8 py-4">
+    <div class="flex space-x-8 py-8">
       <BoutonsPrimaire>Primaire</BoutonsPrimaire>
       <BoutonsSecondaire>Secondaire</BoutonsSecondaire>
       <BoutonsDanger>Danger</BoutonsDanger>
