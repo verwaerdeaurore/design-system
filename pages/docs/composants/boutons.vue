@@ -19,10 +19,10 @@ definePageMeta({
       <BoutonsDanger>Danger</BoutonsDanger>
     </div>
 
-    <TextesCode :code="`<BoutonsPrimaire>Primaire</BoutonsPrimaire>`" />
+    <TextesCode code="<BoutonsPrimaire>Primaire</BoutonsPrimaire>" />
 
-    <TextesCode :code="`<BoutonsSecondaire>Secondaire</BoutonsSecondaire>`" />
+    <TextesCode code="<BoutonsSecondaire>Secondaire</BoutonsSecondaire>" />
 
-    <TextesCode :code="`<BoutonsDanger>Danger</BoutonsDanger>`" />
+    <TextesCode code="<BoutonsDanger>Danger</BoutonsDanger>" />
   </Container>
 </template>

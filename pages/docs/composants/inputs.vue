@@ -1,4 +1,6 @@
 <script setup>
+import { form, inputText, inputTextWithError, textarea } from "./code/inputs";
+
 definePageMeta({
   layout: "docs",
 });
@@ -23,30 +25,19 @@ const description = ref("");
       <InputsTexte v-model="nom" name="nom" placeholder="Votre nom" />
     </InputsGroup>
 
-    <div>Valeur du champs: {{ nom }}</div>
+    <div class="mt-1">Valeur du champs: "{{ nom }}"</div>
 
-    <TextesCode
-      :code="`<InputsGroup class=&quot;max-w-xs&quot;>
-    <InputsLabel name=&quot;nom&quot;>Nom</InputsLabel>
-    <InputsTexte name=&quot;nom&quot; placeholder=&quot;Votre nom&quot; />
-</InputsGroup>`"
-    />
+    <TextesCode :code="inputText" />
 
     <TitresH2>Input de texte avec erreur</TitresH2>
 
     <InputsGroup class="max-w-xs">
-      <InputsLabel name="nom">Nom*</InputsLabel>
-      <InputsTexte v-model="nom" name="nom" placeholder="Votre nom" />
+      <InputsLabel name="error-nom">Nom*</InputsLabel>
+      <InputsTexte v-model="nom" name="error-nom" placeholder="Votre nom" />
       <InputsErreur>Le champs nom est requis</InputsErreur>
     </InputsGroup>
 
-    <TextesCode
-      :code="`<InputsGroup class=&quot;max-w-xs&quot;>
-    <InputsLabel name=&quot;nom&quot;>Nom</InputsLabel>
-    <InputsTexte name=&quot;nom&quot; placeholder=&quot;Votre nom&quot />
-    <InputsErreur>Le champs nom est requis</InputsErreur>
-</InputsGroup>`"
-    />
+    <TextesCode :code="inputTextWithError" />
 
     <TitresH2>Textarea</TitresH2>
 
@@ -59,41 +50,38 @@ const description = ref("");
         rows="10"
       />
     </InputsGroup>
-    <div>Valeur du champs: {{ description }}</div>
+    <div class="mt-1">Valeur du champs: "{{ description }}"</div>
 
-    <TextesCode
-      :code="`<InputsGroup class=&quot;max-w-xs&quot;>
-    <InputsLabel name=&quot;description&quot;>Description</InputsLabel>
-    <InputsTextarea name=&quot;description&quot; placeholder=&quot;Votre texte ...&quot; rows=&quot;10&quot; />
-</InputsGroup>`"
-    />
+    <TextesCode :code="textarea" />
 
     <TitresH2>Form</TitresH2>
 
     <InputsForm>
       <InputsGroup class="max-w-xs">
-        <InputsLabel name="nom">Nom</InputsLabel>
-        <InputsTexte v-model="nom" name="nom" placeholder="Votre nom" />
+        <InputsLabel name="form-nom">Nom</InputsLabel>
+        <InputsTexte v-model="nom" name="form-nom" placeholder="Votre nom" />
       </InputsGroup>
 
       <InputsGroup class="max-w-xs">
-        <InputsLabel name="prenom">Prénom</InputsLabel>
+        <InputsLabel name="form-prenom">Prénom</InputsLabel>
         <InputsTexte
           v-model="prenom"
-          name="prenom"
+          name="form-prenom"
           placeholder="Votre prénom"
         />
       </InputsGroup>
 
       <InputsGroup class="max-w-xs">
-        <InputsLabel name="description">Description</InputsLabel>
+        <InputsLabel name="form-description">Description</InputsLabel>
         <InputsTextarea
           v-model="description"
-          name="description"
+          name="form-description"
           placeholder="Votre texte ..."
           rows="10"
         />
       </InputsGroup>
     </InputsForm>
+
+    <TextesCode :code="form" />
   </Container>
 </template>

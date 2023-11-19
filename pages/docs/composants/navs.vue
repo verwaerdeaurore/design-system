@@ -1,4 +1,6 @@
 <script setup>
+import { nav } from "./code/navs";
+
 definePageMeta({
   layout: "docs",
 });
@@ -29,18 +31,6 @@ definePageMeta({
       </NavsNav>
     </div>
 
-    <TextesCode
-      :code="`<NavsNav>
-    <template #logo>
-        <TitresLogo>Logo</TitresLogo>
-    </template>
-
-    <template #links>
-        <LinksNavLink to=&quot;#&quot;>Accueil</LinksNavLink>
-        <LinksNavLink to=&quot;#&quot;>Blog</LinksNavLink>
-        <LinksNavLink to=&quot;#&quot;>À propos</LinksNavLink>
-    </template>
-</NavsNav>`"
-    />
+    <TextesCode :code="nav" />
   </Container>
 </template>

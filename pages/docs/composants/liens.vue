@@ -2,6 +2,10 @@
 definePageMeta({
   layout: "docs",
 });
+
+const navLink = `<LinksNavLink to="#">Accueil</LinksNavLink>`;
+const link = `<LinksLink to="#">Un lien</LinksLink>`;
+const external = `<LinksExternal to="#">Un lien externe</LinksExternal>`;
 </script>
 
 <template>
@@ -17,22 +21,18 @@ definePageMeta({
 
     <LinksNavLink to="#">Accueil</LinksNavLink>
 
-    <TextesCode
-      :code="`<LinksNavLink to=&quot;#&quot;>Accueil</LinksNavLink>`"
-    />
+    <TextesCode :code="navLink" />
 
     <TitresH2>Liens internes</TitresH2>
 
     <LinksLink to="#">Un lien</LinksLink>
 
-    <TextesCode :code="`<LinksLink to=&quot;#&quot;>Un lien</LinksLink>`" />
+    <TextesCode :code="link" />
 
     <TitresH2>Liens externes</TitresH2>
 
     <LinksExternal to="#">Un lien externe</LinksExternal>
 
-    <TextesCode
-      :code="`<LinksExternal to=&quot;#&quot;>Un lien</LinksExternal>`"
-    />
+    <TextesCode :code="external" />
   </Container>
 </template>

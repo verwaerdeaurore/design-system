@@ -2,6 +2,9 @@
 definePageMeta({
   layout: "docs",
 });
+
+const consoleLog = `console.log('hello')`;
+const code = `<TextesCode code="${consoleLog}" language="js" />`;
 </script>
 
 <template>
@@ -28,10 +31,11 @@ definePageMeta({
     />
 
     <TitresH2>Code</TitresH2>
-    <TextesCode :code="`console.log('hello')`" language="js" />
 
-    <TextesCode
-      :code="`<TextesCode :code=&quot;\`console.log('hello')\`&quot; language=&quot;js&quot; />`"
-    />
+    <TextesParagraphe> Language par défaut : vue </TextesParagraphe>
+
+    <TextesCode :code="consoleLog" language="js" />
+
+    <TextesCode :code="code" />
   </Container>
 </template>
