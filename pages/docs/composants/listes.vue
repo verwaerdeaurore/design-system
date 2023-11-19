@@ -1,10 +1,17 @@
+<script setup>
+import { codeListeLienIcone } from "./code/listes";
+
+definePageMeta({
+  layout: "docs",
+});
+</script>
+
 <template>
   <Container>
-    <TitresH1> Accueil </TitresH1>
+    <TitresH1> Listes </TitresH1>
 
-    <TextesParagraphe> Bienvenue sur le site. </TextesParagraphe>
+    <TitresH2>Liste de liens avec icones</TitresH2>
 
-    <TitresH2> Documentation </TitresH2>
     <ListsBasic>
       <li>
         <CardsIconLink to="/docs/composants">
@@ -32,5 +39,7 @@
         </CardsIconLink>
       </li>
     </ListsBasic>
+
+    <TextesCode :code="codeListeLienIcone" />
   </Container>
 </template>

@@ -8,7 +8,7 @@
 
         <template #links>
           <LinksNavLink to="/">Accueil</LinksNavLink>
-          <LinksNavLink to="/docs">Docs</LinksNavLink>
+          <LinksNavLink to="/docs">Documentation</LinksNavLink>
         </template>
       </NavsNav>
     </template>

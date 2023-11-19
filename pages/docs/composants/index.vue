@@ -8,25 +8,68 @@ definePageMeta({
   <Container>
     <TitresH1> Composants </TitresH1>
 
-    <ul>
+    <TextesParagraphe>
+      Les composants sont des éléments de base de l'interface. Ils sont utilisés
+      pour construire les pages.
+    </TextesParagraphe>
+
+    <ListsBasic>
       <li>
-        <LinksLink to="/docs/composants/titres">Titres</LinksLink>
+        <CardsIconLink to="/docs/composants/titres">
+          <template #icon>
+            <i class="ri-h-1"></i>
+          </template>
+          Titres
+        </CardsIconLink>
       </li>
       <li>
-        <LinksLink to="/docs/composants/textes">Textes</LinksLink>
+        <CardsIconLink to="/docs/composants/textes">
+          <template #icon>
+            <i class="ri-paragraph"></i>
+          </template>
+          Textes
+        </CardsIconLink>
       </li>
       <li>
-        <LinksLink to="/docs/composants/boutons">Boutons</LinksLink>
+        <CardsIconLink to="/docs/composants/boutons">
+          <template #icon>
+            <i class="ri-coin-line"></i>
+          </template>
+          Boutons
+        </CardsIconLink>
       </li>
       <li>
-        <LinksLink to="/docs/composants/liens">Liens</LinksLink>
+        <CardsIconLink to="/docs/composants/liens">
+          <template #icon>
+            <i class="ri-link"></i>
+          </template>
+          Liens
+        </CardsIconLink>
       </li>
       <li>
-        <LinksLink to="/docs/composants/navs">Navs</LinksLink>
+        <CardsIconLink to="/docs/composants/listes">
+          <template #icon>
+            <i class="ri-list-ordered"></i>
+          </template>
+          Listes
+        </CardsIconLink>
       </li>
       <li>
-        <LinksLink to="/docs/composants/inputs">Inputs</LinksLink>
+        <CardsIconLink to="/docs/composants/navs">
+          <template #icon>
+            <i class="ri-menu-line"></i>
+          </template>
+          Navs
+        </CardsIconLink>
       </li>
-    </ul>
+      <li>
+        <CardsIconLink to="/docs/composants/inputs">
+          <template #icon>
+            <i class="ri-input-method-line"></i>
+          </template>
+          Inputs
+        </CardsIconLink>
+      </li>
+    </ListsBasic>
   </Container>
 </template>
