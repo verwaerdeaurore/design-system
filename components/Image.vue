@@ -21,7 +21,7 @@ const loaded = ref(false);
       v-show="!loaded"
       class="h-full w-full bg-white/50 animate-pulse flex justify-center items-center"
     >
-      <i class="ri-image-line text-[10rem] text-gray-400"></i>
+      <i class="ri-image-line text-[5rem] text-gray-400"></i>
     </div>
     <Transition>
       <NuxtImg
