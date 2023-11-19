@@ -13,7 +13,7 @@ definePageMeta({
     <div class="ring-2 ring-gray-200/75 my-8">
       <LayoutsBase>
         <template #navigation>
-          <NavsAppNavigation />
+          <NavsDocsNavigation />
         </template>
 
         <template #content>
@@ -31,7 +31,7 @@ definePageMeta({
     <TextesCode
       :code="`<LayoutsBase>
     <template #navigation>
-        <NavsAppNavigation />
+        <NavsDocsNavigation />
     </template>
 
     <template #content>
