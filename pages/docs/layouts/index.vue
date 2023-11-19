@@ -8,6 +8,10 @@ definePageMeta({
   <Container>
     <TitresH1> Layouts </TitresH1>
 
+    <TextesParagraphe>
+      Utilisez les layouts pour définir la structure de vos pages.
+    </TextesParagraphe>
+
     <TitresH2> App Layout </TitresH2>
 
     <div class="ring-2 ring-gray-200/75 my-8">

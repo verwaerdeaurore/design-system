@@ -8,6 +8,11 @@ definePageMeta({
   <Container>
     <TitresH1>Navigations</TitresH1>
 
+    <TextesParagraphe>
+      Les navigations sont des composants qui permettent de naviguer entre les
+      différentes pages d'un site web.
+    </TextesParagraphe>
+
     <TitresH2>Barre de navigation</TitresH2>
 
     <div class="ring-2 ring-gray-200/75 my-8">

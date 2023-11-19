@@ -8,6 +8,11 @@ definePageMeta({
   <Container>
     <TitresH1>Liens</TitresH1>
 
+    <TextesParagraphe>
+      Vous pouvez utilisez les liens de navigation, internes et externes dans
+      vos projets.
+    </TextesParagraphe>
+
     <TitresH2>Liens de navigation</TitresH2>
 
     <LinksNavLink to="#">Accueil</LinksNavLink>

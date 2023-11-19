@@ -8,6 +8,11 @@ definePageMeta({
   <Container>
     <TitresH1>Textes</TitresH1>
 
+    <TextesParagraphe>
+      Utilisez les composants de texte pour afficher des paragraphes ou des
+      blocks de code, etc.
+    </TextesParagraphe>
+
     <TitresH2>Paragraphe</TitresH2>
 
     <TextesParagraphe>

@@ -10,6 +10,10 @@ definePageMeta({
   <Container>
     <TitresH1> Listes </TitresH1>
 
+    <TextesParagraphe>
+      Utilisez les listes pour structurer le contenu de vos pages.
+    </TextesParagraphe>
+
     <TitresH2>Liste de liens avec icones</TitresH2>
 
     <ListsBasic>

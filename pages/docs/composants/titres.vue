@@ -8,6 +8,11 @@ definePageMeta({
   <Container>
     <TitresH1> Titres </TitresH1>
 
+    <TextesParagraphe>
+      Les titres sont des éléments HTML qui permettent de structurer le contenu
+      d'une page. Ils sont utilisés pour définir les titres et sous-titres.
+    </TextesParagraphe>
+
     <TitresH1>Titre de niveau 1</TitresH1>
 
     <TextesCode :code="`<TitresH1>Titre de niveau 1</TitresH1>`" />
