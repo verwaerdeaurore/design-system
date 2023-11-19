@@ -15,6 +15,9 @@ definePageMeta({
 
     <TitresH2>Exemples</TitresH2>
 
+    Les images doivent être placées dans le dossier <code>/public/img</code> à
+    la racine
+
     <TitresH3>Image simple</TitresH3>
 
     <Image class="max-w-sm mt-12 mb-4" src="/img/test.png" alt="test" />
@@ -24,12 +27,12 @@ definePageMeta({
     <TitresH3>Grille d'images</TitresH3>
 
     <ListsGrid class="mt-12 mb-4">
-      <li><Image class="max-w-sm" src="/img/test.png" alt="test" /></li>
-      <li><Image class="max-w-sm" src="/img/test.png" alt="test" /></li>
-      <li><Image class="max-w-sm" src="/img/test.png" alt="test" /></li>
-      <li><Image class="max-w-sm" src="/img/test.png" alt="test" /></li>
-      <li><Image class="max-w-sm" src="/img/test.png" alt="test" /></li>
-      <li><Image class="max-w-sm" src="/img/test.png" alt="test" /></li>
+      <li><Image src="/img/test.png" alt="test" /></li>
+      <li><Image src="/img/test.png" alt="test" /></li>
+      <li><Image src="/img/test.png" alt="test" /></li>
+      <li><Image src="/img/test.png" alt="test" /></li>
+      <li><Image src="/img/test.png" alt="test" /></li>
+      <li><Image src="/img/test.png" alt="test" /></li>
     </ListsGrid>
 
     <TextesCode :code="imageGrid" />
