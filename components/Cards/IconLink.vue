@@ -17,7 +17,7 @@ defineProps({
     </div>
 
     <div
-      class="text-lg text-gray-300 group-hover:text-gray-900 group-hover:underline transition"
+      class="text-lg text-gray-100 group-hover:text-gray-900 group-hover:underline transition"
     >
       <slot />
     </div>

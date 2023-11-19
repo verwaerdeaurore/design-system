@@ -12,33 +12,37 @@ definePageMeta({
       Bienvenue sur la documentation du Design System.
     </TextesParagraphe>
 
-    <TitresH2> Composants </TitresH2>
-    <ListsBasic>
+    <ListsGrid>
       <li>
-        <CardsIconLink to="/docs/composants">
+        <CardsIconCard to="/docs/composants">
           <template #icon>
-            <i class="ri-list-indefinite"></i>
+            <i
+              class="ri-list-indefinite text-green-500 group-hover:text-green-700"
+            ></i>
           </template>
           Composants
-        </CardsIconLink>
+        </CardsIconCard>
       </li>
 
       <li>
-        <CardsIconLink to="/docs/layouts">
+        <CardsIconCard to="/docs/layouts">
           <template #icon>
-            <i class="ri-layout-line"></i>
+            <i
+              class="ri-layout-line text-blue-500 group-hover:text-blue-700"
+            ></i>
           </template>
           Layouts
-        </CardsIconLink>
+        </CardsIconCard>
       </li>
+
       <li>
-        <CardsIconLink to="/docs/icones">
+        <CardsIconCard to="/docs/icones">
           <template #icon>
-            <i class="ri-heart-line"></i>
+            <i class="ri-heart-line text-red-500 group-hover:text-red-700"></i>
           </template>
           Icones
-        </CardsIconLink>
+        </CardsIconCard>
       </li>
-    </ListsBasic>
+    </ListsGrid>
   </Container>
 </template>
