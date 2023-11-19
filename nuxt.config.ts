@@ -6,4 +6,9 @@ export default defineNuxtConfig({
     "remixicon/fonts/remixicon.css",
     "highlight.js/styles/night-owl.min.css",
   ],
+  tailwindcss: {
+    config: {
+      plugins: [require("@tailwindcss/forms")],
+    },
+  },
 });
