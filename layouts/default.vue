@@ -1,4 +1,8 @@
 <template>
+  <Head>
+    <Title>Design System</Title>
+    <Meta name="description" content="Design System" />
+  </Head>
   <LayoutsBase>
     <template #navigation>
       <NavsNav>
