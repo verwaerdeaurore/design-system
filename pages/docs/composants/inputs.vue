@@ -4,4 +4,8 @@ definePageMeta({
 });
 </script>
 
-<template></template>
+<template>
+  <Container>
+    <TitresH1>Inputs</TitresH1>
+  </Container>
+</template>

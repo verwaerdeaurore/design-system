@@ -8,7 +8,7 @@ defineProps({
 </script>
 
 <template>
-  <nuxt-link
+  <NuxtLink
     :to="to"
     class="flex items-baseline space-x-8 p-4 group hover:bg-gray-200/75 transition"
   >
@@ -21,5 +21,5 @@ defineProps({
     >
       <slot />
     </div>
-  </nuxt-link>
+  </NuxtLink>
 </template>

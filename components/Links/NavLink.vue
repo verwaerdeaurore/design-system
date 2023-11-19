@@ -12,7 +12,6 @@ const props = defineProps({
     :to="to"
     class="text-lg text-gray-300 hover:text-gray-100 hover:underline transition"
     active-class="font-bold"
-    exact
   >
     <slot />
   </NuxtLink>
