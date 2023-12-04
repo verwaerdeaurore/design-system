@@ -1,6 +1,6 @@
 <template>
   <h1
-    class="text-4xl font-bold text-gray-100 font-serif mb-5 pb-3 pt-10 block border-b"
+    class="text-3xl uppercase font-bold  underline decoration-[#6DBF1B] text-white font-serif mb-5 pb-3 pt-10 block border-b"
   >
     <slot />
   </h1>

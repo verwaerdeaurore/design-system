@@ -16,8 +16,18 @@ const code = `<TextesCode code="${consoleLog}" language="js" />`;
       blocks de code, etc.
     </TextesParagraphe>
 
-    <TitresH2>Paragraphe</TitresH2>
+    <TitresH2>Citations</TitresH2>
 
+     <TextesCitation>
+      « Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+      voluptatum, quibusdam, voluptates quia quae voluptatem. »
+    </TextesCitation>
+    <TextesCode
+      :code="`<TextesCitation>
+    « Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptatum, quibusdam, voluptates quia quae voluptatem.»
+</TextesCitation>`"
+    />
+  <TitresH2>Paragraphe</TitresH2>
     <TextesParagraphe>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
       voluptatum, quibusdam, voluptates quia quae voluptatem, quos quod quas

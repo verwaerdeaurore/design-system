@@ -10,8 +10,8 @@ const props = defineProps({
 <template>
   <NuxtLink
     :to="to"
-    class="text-lg text-gray-300 hover:text-gray-100 hover:underline transition"
-    active-class="font-bold"
+    class="uppercase font-sans text-lg text-gray-300 hover:text-gray-100 hover:underline transition decoration-[#D90416]"
+    active-class="uppercase"
   >
     <slot />
   </NuxtLink>

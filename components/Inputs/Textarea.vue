@@ -23,6 +23,6 @@ const handleChange = (event) => {
     :value="modelValue"
     @input="handleChange"
     rows="5"
-    class="ring-2 ring-gray-200/75 focus:ring-gray-100 focus:outline-none focus:ring-2 px-4 py-2 w-full bg-black/50 text-gray-100"
+    class="ring-2 ring-[#D90416] focus:ring-[#D90416] focus:outline-none focus:ring-2 px-4 py-2 w-full bg-black/50 text-gray-100"
   />
 </template>
