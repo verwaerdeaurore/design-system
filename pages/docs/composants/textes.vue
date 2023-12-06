@@ -18,7 +18,7 @@ const code = `<TextesCode code="${consoleLog}" language="js" />`;
 
     <TitresH2>Citations</TitresH2>
 
-     <TextesCitation>
+    <TextesCitation>
       « Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
       voluptatum, quibusdam, voluptates quia quae voluptatem. »
     </TextesCitation>
@@ -27,7 +27,7 @@ const code = `<TextesCode code="${consoleLog}" language="js" />`;
     « Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptatum, quibusdam, voluptates quia quae voluptatem.»
 </TextesCitation>`"
     />
-  <TitresH2>Paragraphe</TitresH2>
+    <TitresH2>Paragraphe</TitresH2>
     <TextesParagraphe>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
       voluptatum, quibusdam, voluptates quia quae voluptatem, quos quod quas
@@ -38,6 +38,38 @@ const code = `<TextesCode code="${consoleLog}" language="js" />`;
       :code="`<TextesParagraphe>
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptatum, quibusdam, voluptates quia quae voluptatem, quos quod quas voluptatibus quidem doloribus. Quisquam voluptatum, quibusdam, voluptates quia quae voluptatem, quos quod quas voluptatibus quidem doloribus.
 </TextesParagraphe>`"
+    />
+    <TitresH3>Bold</TitresH3>
+
+    <TextesBold>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+      voluptatum, quibusdam, voluptates quia quae voluptatem.
+    </TextesBold>
+    <TextesCode
+      :code="`<TextesBold>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+      voluptatum, quibusdam, voluptates quia quae voluptatem.</TextesBold>`"
+    />
+    <TitresH3>Italic</TitresH3>
+
+    <TextesItalic>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+      voluptatum, quibusdam, voluptates quia quae voluptatem.
+    </TextesItalic>
+    <TextesCode
+      :code="`<TextesItalic>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+      voluptatum, quibusdam, voluptates quia quae voluptatem.</TextesItalic>`"
+    />
+    <TitresH3>Underline</TitresH3>
+    <TextesUnderline>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+      voluptatum, quibusdam, voluptates quia quae voluptatem.
+    </TextesUnderline>
+    <TextesCode
+      :code="`<TextesUnderline>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+      voluptatum, quibusdam, voluptates quia quae voluptatem.</TextesUnderline>`"
     />
 
     <TitresH2>Code</TitresH2>
